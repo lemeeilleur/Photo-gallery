@@ -1,0 +1,369 @@
+body {
+    font-family: sans-serif;
+    background-color: #EDEDED;
+    font-size: 24px;
+}
+
+header {
+    background-color: #404040;
+    padding: 15px 20px 20px 20px;
+}
+
+.logo {
+    float: left;
+    vertical-align: middle;
+    margin: 20px 10px 20px 20px;
+}
+
+header h1 {
+    font-size: 50px;
+    margin: 40px auto 25px 10px;
+    color: white;
+    font-family: "Rubik Mono One", monospace;
+    font-weight: 400;
+    font-style: normal;
+}
+
+h2 {
+    text-align: center;
+    color: black;
+    font-family: "Rubik Mono One", monospace;
+    font-weight: 400;
+    font-style: normal;
+    padding: 5px 30px 5px 30px;
+    background-color: #e2e2e2;
+    border-radius: 15px;
+}
+
+nav {
+    margin: 55px 15px 20px 15px;
+    text-align: center;
+    font-family: "Cuprum", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+}
+
+nav .nav-link {
+    text-decoration: none;
+    color: white;
+    background-color: #BF000C;
+    padding: 15px 20px 15px 20px;
+    border-radius: 15px;
+    margin: 20px 15px 20px 15px;
+}
+
+nav .nav-link:hover {
+    font-size: 26px;
+    transition: 0.5s ease-out;
+    background-color: #d1000e;
+    padding: 17px 22px 17px 22px;
+    border-radius: 17px;
+    margin: 22px 17px 22px 17px;
+}
+
+footer {
+    background-color: #404040;
+    padding: 15px 20px 20px 20px
+}
+
+footer h1 {
+    text-align: center;
+    font-size: 40px;
+    margin: 40px auto 25px 10px;
+    color: white;
+    font-family: "Rubik Mono One", monospace;
+    font-weight: 400;
+    font-style: normal;
+}
+
+footer img {
+    height: 90px;
+    width: 90px;
+    padding: 10px;
+}
+
+footer img:hover {
+    transition: 0.5s ease-out;
+    height: 100px;
+    width: 100px;
+    padding: 12px;
+}
+
+.socialnetwork {
+    text-align: center;
+}
+
+p {
+    padding: 0px 60px 0px 60px;
+    font-family: "Cuprum", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+}
+
+.slider {
+  position: relative;
+  width: 482px;
+  margin: 50px auto;
+}
+
+.slider input[name="switch"] {
+  display: none;
+}
+
+.switch {
+  position: absolute;
+  left: 0;
+  bottom: -40px;
+  text-align: center;
+  width: 100%;
+}
+
+.switch label {
+  display: inline-block;
+  width: 8px;
+  height: 8px;
+  cursor: pointer;
+  margin: 0 3px;
+  border-radius: 50%;
+  background-color: #738290;
+}
+
+#btn1:checked~.switch label[for="btn1"] {
+  background-color: white;
+}
+
+#btn2:checked~.switch label[for="btn2"] {
+  background-color: white;
+}
+
+#btn3:checked~.switch label[for="btn3"] {
+  background-color: white;
+}
+
+#btn4:checked~.switch label[for="btn4"] {
+  background-color: white;
+}
+
+#btn5:checked~.switch label[for="btn5"] {
+  background-color: white;
+}
+
+#btn6:checked~.switch label[for="btn6"] {
+  background-color: white;
+}
+
+#btn7:checked~.switch label[for="btn7"] {
+  background-color: white;
+}
+
+#btn8:checked~.switch label[for="btn8"] {
+  background-color: white;
+}
+
+#btn9:checked~.switch label[for="btn9"] {
+  background-color: white;
+}
+
+#btn10:checked~.switch label[for="btn10"] {
+  background-color: white;
+}
+
+#btn11:checked~.switch label[for="btn11"] {
+  background-color: white;
+}
+
+#btn12:checked~.switch label[for="btn12"] {
+  background-color: white;
+}
+
+#btn13:checked~.switch label[for="btn13"] {
+  background-color: white;
+}
+
+#btn14:checked~.switch label[for="btn14"] {
+  background-color: white;
+}
+
+#btn15:checked~.switch label[for="btn15"] {
+  background-color: white;
+}
+
+#btn16:checked~.switch label[for="btn16"] {
+  background-color: white;
+}
+
+#btn17:checked~.switch label[for="btn17"] {
+  background-color: white;
+}
+
+#btn18:checked~.switch label[for="btn18"] {
+  background-color: white;
+}
+
+#btn19:checked~.switch label[for="btn19"] {
+  background-color: white;
+}
+
+#btn20:checked~.switch label[for="btn20"] {
+  background-color: white;
+}
+
+#btn21:checked~.switch label[for="btn21"] {
+  background-color: white;
+}
+
+#btn22:checked~.switch label[for="btn22"] {
+  background-color: white;
+}
+
+#btn23:checked~.switch label[for="btn23"] {
+  background-color: white;
+}
+
+#btn24:checked~.switch label[for="btn24"] {
+  background-color: white;
+}
+
+#btn25:checked~.switch label[for="btn25"] {
+  background-color: white;
+}
+
+#btn26:checked~.switch label[for="btn26"] {
+  background-color: white;
+}
+
+#btn27:checked~.switch label[for="btn27"] {
+  background-color: white;
+}
+
+#btn28:checked~.switch label[for="btn28"] {
+  background-color: white;
+}
+
+.slider-inner {
+  overflow: hidden;
+}
+
+.slides {
+  width: 400%;
+  transition: all 0.5s;
+}
+
+.slides img {
+  width: 482px;
+  float: left;
+}
+
+#btn1:checked~slider-inner .slides {
+  transform: translate(0);
+}
+
+#btn2:checked~.slider-inner .slides {
+  transform: translate(-482px);
+}
+
+#btn3:checked~.slider-inner .slides {
+  transform: translate(-964px);
+}
+
+#btn4:checked~.slider-inner .slides {
+  transform: translate(-1446px);
+}
+
+#btn5:checked~slider-inner .slides {
+  transform: translate(0);
+}
+
+#btn6:checked~.slider-inner .slides {
+  transform: translate(-482px);
+}
+
+#btn7:checked~.slider-inner .slides {
+  transform: translate(-964px);
+}
+
+#btn8:checked~.slider-inner .slides {
+  transform: translate(-1446px);
+}
+
+#btn9:checked~slider-inner .slides {
+  transform: translate(0);
+}
+
+#btn10:checked~.slider-inner .slides {
+  transform: translate(-482px);
+}
+
+#btn11:checked~.slider-inner .slides {
+  transform: translate(-964px);
+}
+
+#btn12:checked~.slider-inner .slides {
+  transform: translate(-1446px);
+}
+
+#btn13:checked~slider-inner .slides {
+  transform: translate(0);
+}
+
+#btn14:checked~.slider-inner .slides {
+  transform: translate(-482px);
+}
+
+#btn15:checked~.slider-inner .slides {
+  transform: translate(-964px);
+}
+
+#btn16:checked~.slider-inner .slides {
+  transform: translate(-1446px);
+}
+
+#btn17:checked~slider-inner .slides {
+  transform: translate(0);
+}
+
+#btn18:checked~.slider-inner .slides {
+  transform: translate(-482px);
+}
+
+#btn19:checked~.slider-inner .slides {
+  transform: translate(-964px);
+}
+
+#btn20:checked~.slider-inner .slides {
+  transform: translate(-1446px);
+}
+
+#btn21:checked~slider-inner .slides {
+  transform: translate(0);
+}
+
+#btn22:checked~.slider-inner .slides {
+  transform: translate(-482px);
+}
+
+#btn23:checked~.slider-inner .slides {
+  transform: translate(-964px);
+}
+
+#btn24:checked~.slider-inner .slides {
+  transform: translate(-1446px);
+}
+
+#btn25:checked~slider-inner .slides {
+  transform: translate(0);
+}
+
+#btn26:checked~.slider-inner .slides {
+  transform: translate(-482px);
+}
+
+#btn27:checked~.slider-inner .slides {
+  transform: translate(-964px);
+}
+
+#btn28:checked~.slider-inner .slides {
+  transform: translate(-1446px);
+}
